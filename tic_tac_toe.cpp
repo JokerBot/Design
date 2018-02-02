@@ -64,7 +64,7 @@ void Board::display()
      {cout<<this->matrix[i][j]<<" ";}
      cout<<endl;    
     }
-    cout<<"-------------------------------------------------------------";
+    cout<<"-------------------------------------------------------------"<<endl;
 }
 
 int Board::check_horizontal(char a)
